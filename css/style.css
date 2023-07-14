@@ -1,0 +1,54 @@
+html {
+    font-family: 'VT323';
+    font-size: 16px;
+    color: #B39E89;
+    /*CRT TV scanlines background texture without external urls*/
+    background-image: repeating-linear-gradient(#272727 , black, #272727 );
+    background-size: 100% 5px;
+}
+
+header {
+    text-align: center;
+    font-size: 3em;
+    margin: 0 auto;
+    padding: 0;
+}
+
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(39, 39, 39, .8);
+    text-align: center;
+}
+
+footer {
+    left: 0;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .8);
+    display: flex;
+}
+
+.text {
+    flex: 1;
+    text-align: center;
+}
+
+.spacer {
+    flex: 2;
+}
+
+.contact_links {
+    display: flex;
+    justify-content: space-around;
+    flex: 2;
+}
+
+.contact_links > a > img {
+    height: 40px;
+    width: 40px;
+}
+
